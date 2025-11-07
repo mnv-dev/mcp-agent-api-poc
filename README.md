@@ -2,22 +2,6 @@
 
 A proof-of-concept implementation demonstrating the **Model Context Protocol (MCP)** as an intermediary layer between REST API endpoints and AI agents. This project showcases how AI agents can interact with backend services through a standardized MCP interface.
 
-## Table of Contents
-
-- [Architecture Overview](#architecture-overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [MCP Protocol](#mcp-protocol)
-- [How It Works](#how-it-works)
-- [Testing](#testing)
-- [Troubleshooting](#troubleshooting)
-- [Future Enhancements](#future-enhancements)
-
 ## Architecture Overview
 
 This POC implements a three-layer architecture:
