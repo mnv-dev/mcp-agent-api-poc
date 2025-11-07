@@ -42,14 +42,14 @@ This POC implements a three-layer architecture:
 - **Filtering & Pagination**: Search employees by name, email or position
 - **PostgreSQL Database**: Robust data persistence
 
-## 🔧 Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - PostgreSQL 12+
 - Google Cloud Project with Vertex AI API enabled
 - Google Cloud credentials configured
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository** (or extract the project files)
 
@@ -78,7 +78,7 @@ CREATE DATABASE employees_db;
 \q
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 1. **Create a `.env` file** in the project root with the following variables:
 
@@ -112,7 +112,7 @@ gcloud auth application-default login
 export GOOGLE_APPLICATION_CREDENTIALS=/path/to/service-account-key.json
 ```
 
-## 🚀 Usage
+## Usage
 
 ### Step 1: Start the REST API Server
 
